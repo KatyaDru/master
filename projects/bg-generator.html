@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="../style.css">
-    <link rel="stylesheet" type="text/css" href="bg-gen.css">
+    <link rel="stylesheet" type="text/css" href="style-bggen.css">
 	
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,17 +15,18 @@
 
 
 
-<body id="gradient">
+<body id="gradient" class="item">
 
 <nav class="sticky">
-	<ul class="main-nav grad">
+	<ul class="navbar">
 		<li><a href="../index.html">Main</a></li>
 		<li><a href="#">Skills</a></li>
-		<li class="nav-a-active">Projects</li>
+		<li class="navbarActive">Projects</li>
 		<li><a href="#">Experience</a></li>
-		<li class="push"><a href="#">Contacts</a></li>
+		<li class="navlastPush"><a href="#">Contacts</a></li>
 	</ul>
 </nav>
+
 
 <div class="buffer-big"></div>
 
@@ -33,25 +34,25 @@
 
 
 
-<div class="container content about">
-	<div class="cell"><h2>Backround generator</h2>
+<div class="container">
 
-		<p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua! </p>
+	<div class="goBack"><p></p></div>
+
+	<div><h2>Backround generator</h2>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua! </p>
 
 		<div class="buffer"></div>
 
-		<p class="text">
+		<p>
 			<label for="color1">First color:</label>
 			<input class="color1" type="color" name="color1" value="#FF7E70"><br><br>
 
 			<label for="color2">Second color: </label>
-			<input class="color2" type="color" name="color2" value="#e4fbf6"></p><br>
-
-		<p class="text">Current CSS background is: <p class="bgGen"></p></p>
-
-
-		<script type="text/javascript" src="script.js"></script>
-
+			<input class="color2" type="color" name="color2" value="#e4fbf6">
+		</p>
+		<br>
+		<p>Current CSS background is: <p class="backgroundGenerator"></p></p>
 
 	</div>
 </div>
@@ -59,15 +60,12 @@
 
 
 
+<script type="text/javascript" src="script-bggen.js"></script>
 
 
-<div class="buffer"></div>
-<div class="buffer"></div>
 
 
-<footer class="bottom">Katya Drusakov, 2022</footer>
-
-<script type="text/javascript" src="script.js"></script>
+<footer class="footerSticky">Katya Drusakov, 2022</footer>
 
 </body>
 </html>

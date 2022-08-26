@@ -16,13 +16,15 @@
 
 <body>
 
+<script type="text/javascript" src="script.js"></script>
+
 <nav class="sticky">
-	<ul class="main-nav grad">
+	<ul class="navbar">
 		<li><a href="index.html">Main</a></li>
 		<li><a href="#">Skills</a></li>
-		<li class="nav-a-active">Projects</li>
+		<li class="navbarActive">Projects</li>
 		<li><a href="#">Experience</a></li>
-		<li class="push"><a href="#">Contacts</a></li>
+		<li class="navlastPush"><a href="#">Contacts</a></li>
 	</ul>
 </nav>
 
@@ -30,7 +32,7 @@
 
 <div class="buffer-big"></div>
 
-<div class="content about">
+<div class="intro about">
 	<div class="cell"><h2>My projects</h2>
 		<p class="text">Lorem ipsum dolor 	sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 	</div>
@@ -38,16 +40,16 @@
 
 <div class="buffer-big"></div>
 
-<div class="grid-wrapper">
-	<a href="projects/bg-generator.html"><div class="box proj1"><img src="images/proj/proj1.jpeg"></div></a>
-	<div class="box"><img src="images/proj/proj2.jpeg"></div>
-	<div class="box"><img src="images/proj/proj3.jpeg"></div>
-	<div class="box"><img src="images/proj/proj4.jpeg"></div>
-	<div class="box"><img src="images/proj/proj5.jpeg"></div>
-	<div class="box"><img src="images/proj/proj6.jpeg"></div>
+<div class="projectGrid">
+	<a href="projects/bg-generator.html"><div class="projectBox projectBgGrad"><img src="images/proj/projectBgGrad.jpeg"></div></a>
+	<div class="projectBox"><img src="images/proj/proj2.jpeg"></div>
+	<div class="projectBox"><img src="images/proj/proj3.jpeg"></div>
+	<div class="projectBox"><img src="images/proj/proj4.jpeg"></div>
+	<div class="projectBox"><img src="images/proj/proj5.jpeg"></div>
+	<div class="projectBox"><img src="images/proj/proj6.jpeg"></div>
 </div>
 
-<div class="content">
+<div class="intro">
 	<p>URL:
 	<input type="text" id="userInput" value="Input url here">
 	<button type="button" id="userClick"><span class="but-text">Add picture</span></button></p>
@@ -70,9 +72,9 @@
 <div class="buffer"></div>
 <div class="buffer"></div>
 
-<footer class="yellow">Katya Drusakov, 2022</footer>
+<footer>Katya Drusakov, 2022</footer>
 
-<script type="text/javascript" src="script.js"></script>
+
 
 </body>
 </html>
