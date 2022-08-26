@@ -1,0 +1,22 @@
+body {
+	background-image: linear-gradient(#FF7E70, #e4fbf6);
+}
+
+.container {
+	height: 50vw;
+}
+
+.bottom {
+position: fixed;
+bottom: 0;
+width: 100%;
+
+}
+
+.bgGen {
+	font-size: 1em;
+	font-weight: 600px;
+
+}
+
+}
